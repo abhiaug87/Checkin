@@ -26,7 +26,7 @@ namespace Tests.Steps
         {
             po.loginbtn.Click();
             po.usr.SendKeys("abhiaug87");
-            po.pass.SendKeys("Bhaiya83");
+            po.pass.SendKeys("ABCD");
             po.next.Click();
             wait.Until(Driver => Driver.FindElement(By.XPath("//*[@id='layout']/tbody/tr[1]/td[1]/div")));
         }
